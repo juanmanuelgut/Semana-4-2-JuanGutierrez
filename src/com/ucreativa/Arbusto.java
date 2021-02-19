@@ -7,7 +7,7 @@ package com.ucreativa;
  * @author juangutierrez
  *
  */
-public class Arbusto {
+public class Arbusto extends Vegetal implements Actor{
 
 	/**
 	 * 

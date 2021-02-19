@@ -7,7 +7,7 @@ package com.ucreativa;
  * @author juangutierrez
  *
  */
-public class Persona {
+public class Persona implements Actor {
 
 	/**
 	 * 
