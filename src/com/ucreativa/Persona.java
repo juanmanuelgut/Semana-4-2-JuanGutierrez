@@ -7,7 +7,7 @@ package com.ucreativa;
  * @author juangutierrez
  *
  */
-public class Persona implements Actor {
+abstract class Persona implements Actor {
 	
 	public String personaAtributo1;
 	public String personaAtributo2;
@@ -63,23 +63,12 @@ public class Persona implements Actor {
 		this.personaAtributo3 = personaAtributo3;
 	}
 	
-	public String personaMetodo1() {
-		
-		return "Método Persona1";
-		
-	}
+	abstract String personaMetodo1();
 
-	public String personaMetodo2() {
-		
-		return "Método Persona2";
-		
-	}
+	abstract String personaMetodo2();
 	
-	public String personaMetodo3() {
-		
-		return "Método Persona3";
-		
-	}
+	abstract String personaMetodo3() ;
+	
 	@Override
 	public void salirAEscena() {
 		// TODO Auto-generated method stub
