@@ -86,6 +86,12 @@ public class Vehiculo implements Actor{
 		// TODO Auto-generated method stub
 		
 	}
+	@Override
+	public String toString() {
+		return "Vehiculo [vehiculoatributo1=" + vehiculoatributo1 + ", vehiculoatributo2=" + vehiculoatributo2
+				+ ", vehiculoatributo3=" + vehiculoatributo3 + "]";
+	}
+	
 	
 	
 }
