@@ -9,55 +9,55 @@ package com.ucreativa;
  */
 public class Vehiculo implements Actor,ObjetoInerte{
 	
-	private String vehiculoatributo1;
-	private String vehiculoatributo2;
-	private String vehiculoatributo3;
+	private String vehiculoColor;
+	private String vehiculoTraccion;
+	private String vehiculoCombustible;
 	/**
-	 * @return the vehiculoatributo1
+	 * @return the vehiculoColor
 	 */
-	public String getVehiculoatributo1() {
-		return vehiculoatributo1;
+	public String getVehiculoColor() {
+		return vehiculoColor;
 	}
 	/**
-	 * @param vehiculoatributo1 the vehiculoatributo1 to set
+	 * @param vehiculoColor the vehiculoColor to set
 	 */
-	public void setVehiculoatributo1(String vehiculoatributo1) {
-		this.vehiculoatributo1 = vehiculoatributo1;
+	public void setVehiculoColor(String vehiculoatributo1) {
+		this.vehiculoColor = vehiculoatributo1;
 	}
 	/**
-	 * @return the vehiculoatributo2
+	 * @return the vehiculoTraccion
 	 */
-	public String getVehiculoatributo2() {
-		return vehiculoatributo2;
+	public String getVehiculoTraccion() {
+		return vehiculoTraccion;
 	}
 	/**
-	 * @param vehiculoatributo2 the vehiculoatributo2 to set
+	 * @param vehiculoTraccion the vehiculoTraccion to set
 	 */
-	public void setVehiculoatributo2(String vehiculoatributo2) {
-		this.vehiculoatributo2 = vehiculoatributo2;
+	public void setVehiculoTraccion(String vehiculoatributo2) {
+		this.vehiculoTraccion = vehiculoatributo2;
 	}
 	/**
-	 * @return the vehiculoatributo3
+	 * @return the vehiculoCombustible
 	 */
-	public String getVehiculoatributo3() {
-		return vehiculoatributo3;
+	public String getVehiculoCombustible() {
+		return vehiculoCombustible;
 	}
 	/**
-	 * @param vehiculoatributo3 the vehiculoatributo3 to set
+	 * @param vehiculoCombustible the vehiculoCombustible to set
 	 */
-	public void setVehiculoatributo3(String vehiculoatributo3) {
-		this.vehiculoatributo3 = vehiculoatributo3;
+	public void setVehiculoCombustible(String vehiculoatributo3) {
+		this.vehiculoCombustible = vehiculoatributo3;
 	}
 	/**
-	 * @param vehiculoatributo1
-	 * @param vehiculoatributo2
-	 * @param vehiculoatributo3
+	 * @param vehiculoColor
+	 * @param vehiculoTraccion
+	 * @param vehiculoCombustible
 	 */
 	public Vehiculo(String vehiculoatributo1, String vehiculoatributo2, String vehiculoatributo3) {
 		super();
-		this.vehiculoatributo1 = vehiculoatributo1;
-		this.vehiculoatributo2 = vehiculoatributo2;
-		this.vehiculoatributo3 = vehiculoatributo3;
+		this.vehiculoColor = vehiculoatributo1;
+		this.vehiculoTraccion = vehiculoatributo2;
+		this.vehiculoCombustible = vehiculoatributo3;
 	}
 	
 	public String vehiculoMetodo1() {
@@ -105,8 +105,8 @@ public class Vehiculo implements Actor,ObjetoInerte{
 	
 	@Override
 	public String toString() {
-		return "Vehiculo [vehiculoatributo1=" + vehiculoatributo1 + ", vehiculoatributo2=" + vehiculoatributo2
-				+ ", vehiculoatributo3=" + vehiculoatributo3 + "]";
+		return "Vehiculo [vehiculoColor=" + vehiculoColor + ", vehiculoTraccion=" + vehiculoTraccion
+				+ ", vehiculoCombustible=" + vehiculoCombustible + "]";
 	}
 	
 }

@@ -9,97 +9,97 @@ package com.ucreativa;
  */
 public class Profesor extends Persona {
 	
-	private String profesorAtributo1;
-	private String profesorAtributo2;
-	private String profesorAtributo3;
+	private String profesorTitulo;
+	private String profesorMateria;
+	private String profesorAfiliacion;
 	/**
-	 * @return the profesorAtributo1
+	 * @return the profesorTitulo
 	 */
-	public String getProfesorAtributo1() {
-		return profesorAtributo1;
+	public String getProfesorTitulo() {
+		return profesorTitulo;
 	}
 	/**
-	 * @param profesorAtributo1 the profesorAtributo1 to set
+	 * @param profesorTitulo the profesorTitulo to set
 	 */
-	public void setProfesorAtributo1(String profesorAtributo1) {
-		this.profesorAtributo1 = profesorAtributo1;
+	public void setProfesorTitulo(String profesorAtributo1) {
+		this.profesorTitulo = profesorAtributo1;
 	}
 	/**
-	 * @return the profesorAtributo2
+	 * @return the profesorMateria
 	 */
-	public String getProfesorAtributo2() {
-		return profesorAtributo2;
+	public String getProfesorMateria() {
+		return profesorMateria;
 	}
 	/**
-	 * @param profesorAtributo2 the profesorAtributo2 to set
+	 * @param profesorMateria the profesorMateria to set
 	 */
-	public void setProfesorAtributo2(String profesorAtributo2) {
-		this.profesorAtributo2 = profesorAtributo2;
+	public void setProfesorMateria(String profesorAtributo2) {
+		this.profesorMateria = profesorAtributo2;
 	}
 	/**
-	 * @return the profesorAtributo3
+	 * @return the profesorAfiliacion
 	 */
-	public String getProfesorAtributo3() {
-		return profesorAtributo3;
+	public String getProfesorAfiliacion() {
+		return profesorAfiliacion;
 	}
 	/**
-	 * @param profesorAtributo3 the profesorAtributo3 to set
+	 * @param profesorAfiliacion the profesorAfiliacion to set
 	 */
-	public void setProfesorAtributo3(String profesorAtributo3) {
-		this.profesorAtributo3 = profesorAtributo3;
+	public void setProfesorAfiliacion(String profesorAtributo3) {
+		this.profesorAfiliacion = profesorAtributo3;
 	}
 	/**
-	 * @param personaAtributo1
-	 * @param personaAtributo2
-	 * @param personaAtributo3
-	 * @param profesorAtributo1
-	 * @param profesorAtributo2
-	 * @param profesorAtributo3
+	 * @param personaNombre
+	 * @param personaApellido
+	 * @param personaCasa
+	 * @param profesorTitulo
+	 * @param profesorMateria
+	 * @param profesorAfiliacion
 	 */
 	public Profesor(String personaAtributo1, String personaAtributo2, String personaAtributo3, String profesorAtributo1,
 			String profesorAtributo2, String profesorAtributo3) {
 		super(personaAtributo1, personaAtributo2, personaAtributo3);
-		this.profesorAtributo1 = profesorAtributo1;
-		this.profesorAtributo2 = profesorAtributo2;
-		this.profesorAtributo3 = profesorAtributo3;
+		this.profesorTitulo = profesorAtributo1;
+		this.profesorMateria = profesorAtributo2;
+		this.profesorAfiliacion = profesorAtributo3;
 	}
 	
 	public String profesorMetodo1() {
 		
-		return "Método Profesor 1";
+		return "Expecto Patronum!!";
 		
 	}
 	
 	public String profesorMetod21() {
 		
-		return "Método Profesor 2";
+		return "Confundo";
 		
 	}
 	
 	public String profesorMetodo3() {
 		
-		return "Método Profesor 3";
+		return "Obliviate!!";
 		
 	}
 	@Override
 	String personaMetodo1() {
 		// TODO Auto-generated method stub
-		return null;
+		return "Avada Kedavra!!";
 	}
 	@Override
 	String personaMetodo2() {
 		// TODO Auto-generated method stub
-		return null;
+		return "Crucio!!";
 	}
 	@Override
 	String personaMetodo3() {
 		// TODO Auto-generated method stub
-		return null;
+		return "Expelliarmus!";
 	}
 	@Override
 	public String toString() {
-		return "Profesor [profesorAtributo1=" + profesorAtributo1 + ", profesorAtributo2=" + profesorAtributo2
-				+ ", profesorAtributo3=" + profesorAtributo3 + "]";
+		return "Profesor [profesorTitulo=" + profesorTitulo + ", profesorMateria=" + profesorMateria
+				+ ", profesorAfiliacion=" + profesorAfiliacion + "]";
 	}
 	
 	

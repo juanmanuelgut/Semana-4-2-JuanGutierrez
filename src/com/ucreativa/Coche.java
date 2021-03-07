@@ -9,62 +9,64 @@ package com.ucreativa;
  */
 public class Coche extends Vehiculo{
 
-	private String cocheAtributo1;
-	private String cocheAtributo2;
-	private String cocheAtributo3;
+	private String cocheMarca;
+	private String cocheTransmicion;
+	private String cocheMarcaAceite;
 	/**
-	 * @return the cocheAtributo1
+	 * @return the cocheMarca
 	 */
-	public String getCocheAtributo1() {
-		return cocheAtributo1;
+	public String getCocheMarca() {
+		return cocheMarca;
 	}
 	/**
-	 * @param cocheAtributo1 the cocheAtributo1 to set
+	 * @param cocheMarca the cocheMarca to set
 	 */
-	public void setCocheAtributo1(String cocheAtributo1) {
-		this.cocheAtributo1 = cocheAtributo1;
+	public void setCocheMarca(String cocheAtributo1) {
+		this.cocheMarca = cocheAtributo1;
 	}
 	/**
-	 * @return the cocheAtributo2
+	 * @return the cocheTransmicion
 	 */
-	public String getCocheAtributo2() {
-		return cocheAtributo2;
+	public String getCocheTransmicion() {
+		return cocheTransmicion;
 	}
 	/**
-	 * @param cocheAtributo2 the cocheAtributo2 to set
+	 * @param cocheTransmicion the cocheTransmicion to set
 	 */
-	public void setCocheAtributo2(String cocheAtributo2) {
-		this.cocheAtributo2 = cocheAtributo2;
+	public void setCocheTransmicion(String cocheAtributo2) {
+		this.cocheTransmicion = cocheAtributo2;
 	}
 	/**
-	 * @return the cocheAtributo3
+	 * @return the cocheMarcaAceite
 	 */
-	public String getCocheAtributo3() {
-		return cocheAtributo3;
+	public String getCocheMarcaAceite() {
+		return cocheMarcaAceite;
 	}
 	/**
-	 * @param cocheAtributo3 the cocheAtributo3 to set
+	 * @param cocheMarcaAceite the cocheMarcaAceite to set
 	 */
-	public void setCocheAtributo3(String cocheAtributo3) {
-		this.cocheAtributo3 = cocheAtributo3;
+	public void setCocheMarcaAceite(String cocheAtributo3) {
+		this.cocheMarcaAceite = cocheAtributo3;
 	}
 	/**
 	 * @param vehiculoatributo1
 	 * @param vehiculoatributo2
 	 * @param vehiculoatributo3
-	 * @param cocheAtributo1
-	 * @param cocheAtributo2
-	 * @param cocheAtributo3
+	 * @param cocheMarca
+	 * @param cocheTransmicion
+	 * @param cocheMarcaAceite
 	 */
 	public Coche(String vehiculoatributo1, String vehiculoatributo2, String vehiculoatributo3, String cocheAtributo1,
 			String cocheAtributo2, String cocheAtributo3) {
 		super(vehiculoatributo1, vehiculoatributo2, vehiculoatributo3);
-		this.cocheAtributo1 = cocheAtributo1;
-		this.cocheAtributo2 = cocheAtributo2;
-		this.cocheAtributo3 = cocheAtributo3;
+		this.cocheMarca = cocheAtributo1;
+		this.cocheTransmicion = cocheAtributo2;
+		this.cocheMarcaAceite = cocheAtributo3;
 	}
 	
-	public void cocheMetodo1() {
+	public String cocheMetodo1() {
+		
+		return "Vamonos!!!!!";
 		
 	}
 	
@@ -75,5 +77,13 @@ public class Coche extends Vehiculo{
 	public void cocheMetodo3() {
 		
 	}
+	
+	@Override
+	public String toString() {
+		return "Coche [cocheMarca=" + cocheMarca + ", cocheTransmicion=" + cocheTransmicion + ", cocheMarcaAceite="
+				+ cocheMarcaAceite + "]";
+	}
+	
+	
 
 }

@@ -9,58 +9,58 @@ package com.ucreativa;
  */
 abstract class Persona implements Actor {
 	
-	public String personaAtributo1;
-	public String personaAtributo2;
-	public String personaAtributo3;
+	private String personaNombre;
+	private String personaApellido;
+	private String personaCasa;
 	/**
 	 * 
 	 */
 	/**
-	 * @return the personaAtributo1
+	 * @return the personaNombre
 	 */
-	public String getPersonaAtributo1() {
-		return personaAtributo1;
+	public String getPersonaNombre() {
+		return personaNombre;
 	}
 	/**
-	 * @param personaAtributo1 the personaAtributo1 to set
+	 * @param personaNombre the personaNombre to set
 	 */
-	public void setPersonaAtributo1(String personaAtributo1) {
-		this.personaAtributo1 = personaAtributo1;
+	public void setPersonaNombre(String personaAtributo1) {
+		this.personaNombre = personaAtributo1;
 	}
 	/**
-	 * @return the personaAtributo2
+	 * @return the personaApellido
 	 */
-	public String getPersonaAtributo2() {
-		return personaAtributo2;
+	public String getPersonaApellido() {
+		return personaApellido;
 	}
 	/**
-	 * @param personaAtributo2 the personaAtributo2 to set
+	 * @param personaApellido the personaApellido to set
 	 */
-	public void setPersonaAtributo2(String personaAtributo2) {
-		this.personaAtributo2 = personaAtributo2;
+	public void setPersonaApellido(String personaAtributo2) {
+		this.personaApellido = personaAtributo2;
 	}
 	/**
-	 * @return the personaAtributo3
+	 * @return the personaCasa
 	 */
-	public String getPersonaAtributo3() {
-		return personaAtributo3;
+	public String getPersonaCasa() {
+		return personaCasa;
 	}
 	/**
-	 * @param personaAtributo3 the personaAtributo3 to set
+	 * @param personaCasa the personaCasa to set
 	 */
-	public void setPersonaAtributo3(String personaAtributo3) {
-		this.personaAtributo3 = personaAtributo3;
+	public void setPersonaCasa(String personaAtributo3) {
+		this.personaCasa = personaAtributo3;
 	}
 	/**
-	 * @param personaAtributo1
-	 * @param personaAtributo2
-	 * @param personaAtributo3
+	 * @param personaNombre
+	 * @param personaApellido
+	 * @param personaCasa
 	 */
 	public Persona(String personaAtributo1, String personaAtributo2, String personaAtributo3) {
 		super();
-		this.personaAtributo1 = personaAtributo1;
-		this.personaAtributo2 = personaAtributo2;
-		this.personaAtributo3 = personaAtributo3;
+		this.personaNombre = personaAtributo1;
+		this.personaApellido = personaAtributo2;
+		this.personaCasa = personaAtributo3;
 	}
 	
 	abstract String personaMetodo1();
@@ -86,8 +86,8 @@ abstract class Persona implements Actor {
 	}
 	@Override
 	public String toString() {
-		return "Persona [personaAtributo1=" + personaAtributo1 + ", personaAtributo2=" + personaAtributo2
-				+ ", personaAtributo3=" + personaAtributo3 + "]";
+		return "Persona [personaNombre=" + personaNombre + ", personaApellido=" + personaApellido
+				+ ", personaCasa=" + personaCasa + "]";
 	}
 	
 	
